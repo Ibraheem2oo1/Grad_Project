@@ -1,0 +1,527 @@
+[0.000000] (-) TimerEvent: {}
+[0.000954] (depthimage_to_laserscan) JobQueued: {'identifier': 'depthimage_to_laserscan', 'dependencies': OrderedDict()}
+[0.001001] (diff_bot) JobQueued: {'identifier': 'diff_bot', 'dependencies': OrderedDict()}
+[0.001031] (kinect_ros2) JobQueued: {'identifier': 'kinect_ros2', 'dependencies': OrderedDict()}
+[0.001060] (depthimage_to_laserscan) JobStarted: {'identifier': 'depthimage_to_laserscan'}
+[0.006644] (diff_bot) JobStarted: {'identifier': 'diff_bot'}
+[0.010870] (kinect_ros2) JobStarted: {'identifier': 'kinect_ros2'}
+[0.015508] (depthimage_to_laserscan) JobProgress: {'identifier': 'depthimage_to_laserscan', 'progress': 'cmake'}
+[0.016039] (depthimage_to_laserscan) Command: {'cmd': ['/home/ibraheem/.local/bin/cmake', '/home/ibraheem/course_ws/src/depthimage_to_laserscan', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ibraheem/course_ws/src/install/depthimage_to_laserscan'], 'cwd': '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ibraheem'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ibraheem'), ('OLDPWD', '/home/ibraheem/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ibraheem'), ('_', '/home/ibraheem/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ibraheem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ibraheem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ibraheem-VirtualBox:@/tmp/.ICE-unix/1070,unix/ibraheem-VirtualBox:/tmp/.ICE-unix/1070'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e15b3ea_997e_439b_a380_89184e1bc59a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3N5M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ibraheem/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.019112] (diff_bot) JobProgress: {'identifier': 'diff_bot', 'progress': 'cmake'}
+[0.019451] (diff_bot) Command: {'cmd': ['/home/ibraheem/.local/bin/cmake', '/home/ibraheem/course_ws/src/diff_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ibraheem/course_ws/src/install/diff_bot'], 'cwd': '/home/ibraheem/course_ws/src/build/diff_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ibraheem'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ibraheem'), ('OLDPWD', '/home/ibraheem/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ibraheem'), ('_', '/home/ibraheem/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ibraheem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ibraheem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ibraheem-VirtualBox:@/tmp/.ICE-unix/1070,unix/ibraheem-VirtualBox:/tmp/.ICE-unix/1070'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e15b3ea_997e_439b_a380_89184e1bc59a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3N5M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ibraheem/course_ws/src/build/diff_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ibraheem/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.024257] (kinect_ros2) JobProgress: {'identifier': 'kinect_ros2', 'progress': 'cmake'}
+[0.025250] (kinect_ros2) Command: {'cmd': ['/home/ibraheem/.local/bin/cmake', '/home/ibraheem/course_ws/src/kinect_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ibraheem/course_ws/src/install/kinect_ros2'], 'cwd': '/home/ibraheem/course_ws/src/build/kinect_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ibraheem'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ibraheem'), ('OLDPWD', '/home/ibraheem/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ibraheem'), ('_', '/home/ibraheem/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ibraheem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ibraheem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ibraheem-VirtualBox:@/tmp/.ICE-unix/1070,unix/ibraheem-VirtualBox:/tmp/.ICE-unix/1070'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e15b3ea_997e_439b_a380_89184e1bc59a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3N5M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ibraheem/course_ws/src/build/kinect_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ibraheem/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100057] (-) TimerEvent: {}
+[0.200917] (-) TimerEvent: {}
+[0.301256] (-) TimerEvent: {}
+[0.342545] (depthimage_to_laserscan) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.344723] (kinect_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.345026] (diff_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.403719] (-) TimerEvent: {}
+[0.439964] (kinect_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.441370] (diff_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.441563] (depthimage_to_laserscan) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.472398] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.472776] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.472869] (diff_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.504133] (-) TimerEvent: {}
+[0.569143] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.569713] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.570808] (diff_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.589458] (kinect_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.589781] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.590195] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.590310] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.590537] (diff_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.590910] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.591083] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.591278] (diff_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.591439] (diff_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.595668] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.595901] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.596026] (diff_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.604703] (-) TimerEvent: {}
+[0.688253] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.688468] (diff_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.689040] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.705152] (-) TimerEvent: {}
+[0.708603] (diff_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.708921] (kinect_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.709129] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.709308] (diff_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.709681] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.709888] (diff_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.709971] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.710112] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.710715] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.713454] (diff_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.713624] (kinect_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.715768] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.805276] (-) TimerEvent: {}
+[0.850915] (diff_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.853438] (kinect_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.874598] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.917284] (-) TimerEvent: {}
+[0.918361] (diff_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.924457] (kinect_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.940998] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.967466] (kinect_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.973904] (diff_bot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.984064] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)\n'}
+[1.027649] (-) TimerEvent: {}
+[1.040637] (diff_bot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.048596] (diff_bot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.049400] (kinect_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.057014] (kinect_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.060731] (diff_bot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.061687] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.069704] (kinect_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.070235] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.081580] (diff_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.083912] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.090238] (kinect_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.106695] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.111463] (diff_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.114715] (kinect_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.130488] (-) TimerEvent: {}
+[1.139138] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.214977] (diff_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.218505] (diff_bot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.236132] (-) TimerEvent: {}
+[1.324106] (kinect_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.327646] (kinect_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.336244] (-) TimerEvent: {}
+[1.428322] (diff_bot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[1.436709] (-) TimerEvent: {}
+[1.460819] (kinect_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[1.465566] (diff_bot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.477989] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core\n'}
+[1.480958] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.499643] (kinect_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.532437] (diff_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.545768] (diff_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.545931] (-) TimerEvent: {}
+[1.566796] (kinect_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.579941] (kinect_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.580105] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.584448] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.658472] (-) TimerEvent: {}
+[1.662830] (diff_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.663137] (kinect_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.664114] (diff_bot) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.664275] (kinect_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.723759] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[1.759090] (-) TimerEvent: {}
+[1.762867] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.832728] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.847089] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.859542] (-) TimerEvent: {}
+[1.895043] (diff_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.910059] (kinect_ros2) StdoutLine: {'line': b'-- Found Freenect: /usr/lib/x86_64-linux-gnu/libfreenect.so;/usr/lib/x86_64-linux-gnu/libfreenect_sync.so\n'}
+[1.921725] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.923163] (kinect_ros2) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4")\n'}
+[1.923291] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.925589] (kinect_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.959913] (-) TimerEvent: {}
+[1.986073] (diff_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.987023] (diff_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.987739] (diff_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.990515] (diff_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.992699] (diff_bot) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[1.998745] (diff_bot) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.000817] (diff_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/ibraheem/course_ws/src/build/diff_bot\n'}
+[2.022551] (diff_bot) CommandEnded: {'returncode': 0}
+[2.023199] (diff_bot) JobProgress: {'identifier': 'diff_bot', 'progress': 'build'}
+[2.024978] (diff_bot) Command: {'cmd': ['/home/ibraheem/.local/bin/cmake', '--build', '/home/ibraheem/course_ws/src/build/diff_bot', '--', '-j6', '-l6'], 'cwd': '/home/ibraheem/course_ws/src/build/diff_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ibraheem'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ibraheem'), ('OLDPWD', '/home/ibraheem/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ibraheem'), ('_', '/home/ibraheem/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ibraheem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ibraheem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ibraheem-VirtualBox:@/tmp/.ICE-unix/1070,unix/ibraheem-VirtualBox:/tmp/.ICE-unix/1070'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e15b3ea_997e_439b_a380_89184e1bc59a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3N5M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ibraheem/course_ws/src/build/diff_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ibraheem/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.060099] (-) TimerEvent: {}
+[2.106340] (kinect_ros2) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.127846] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.130131] (diff_bot) CommandEnded: {'returncode': 0}
+[2.143679] (kinect_ros2) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.163516] (-) TimerEvent: {}
+[2.204147] (kinect_ros2) StdoutLine: {'line': b'-- Found depth_image_proc: 3.0.4 (/opt/ros/humble/share/depth_image_proc/cmake)\n'}
+[2.232549] (diff_bot) JobProgress: {'identifier': 'diff_bot', 'progress': 'install'}
+[2.233337] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[2.263914] (-) TimerEvent: {}
+[2.313513] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[2.314813] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[2.323198] (diff_bot) Command: {'cmd': ['/home/ibraheem/.local/bin/cmake', '--install', '/home/ibraheem/course_ws/src/build/diff_bot'], 'cwd': '/home/ibraheem/course_ws/src/build/diff_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ibraheem'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ibraheem'), ('OLDPWD', '/home/ibraheem/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ibraheem'), ('_', '/home/ibraheem/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ibraheem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ibraheem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ibraheem-VirtualBox:@/tmp/.ICE-unix/1070,unix/ibraheem-VirtualBox:/tmp/.ICE-unix/1070'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e15b3ea_997e_439b_a380_89184e1bc59a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3N5M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ibraheem/course_ws/src/build/diff_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ibraheem/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.364354] (-) TimerEvent: {}
+[2.393637] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[2.394166] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[2.399189] (diff_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.399697] (diff_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.400459] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/urdf/caster_wheel.xacro\n'}
+[2.404178] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/urdf/chassis.xacro\n'}
+[2.407663] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/urdf/control.xacro\n'}
+[2.411587] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/urdf/depth_camera.xacro\n'}
+[2.416221] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/urdf/gazebo_control.xacro\n'}
+[2.419766] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/urdf/inertial_macros.xacro\n'}
+[2.423369] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/urdf/properties.xacro\n'}
+[2.427147] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/urdf/robot.urdf.xacro\n'}
+[2.430674] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/urdf/wheel.xacro\n'}
+[2.434330] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/launch/robot.launch.py\n'}
+[2.437844] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/launch/rsp.launch.py\n'}
+[2.441526] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/launch/simulation.launch.py\n'}
+[2.445531] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/config/diff_drive_controller.yaml\n'}
+[2.449237] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/ament_index/resource_index/package_run_dependencies/diff_bot\n'}
+[2.453104] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/ament_index/resource_index/parent_prefix_path/diff_bot\n'}
+[2.456722] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/environment/ament_prefix_path.sh\n'}
+[2.460189] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/environment/ament_prefix_path.dsv\n'}
+[2.463906] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/environment/path.sh\n'}
+[2.464715] (-) TimerEvent: {}
+[2.467349] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/environment/path.dsv\n'}
+[2.471002] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/local_setup.bash\n'}
+[2.474187] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[2.474606] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/local_setup.sh\n'}
+[2.478245] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/local_setup.zsh\n'}
+[2.481030] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.481774] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/local_setup.dsv\n'}
+[2.485450] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/package.dsv\n'}
+[2.489183] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/ament_index/resource_index/packages/diff_bot\n'}
+[2.493021] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/cmake/diff_botConfig.cmake\n'}
+[2.496538] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/cmake/diff_botConfig-version.cmake\n'}
+[2.500103] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/diff_bot/share/diff_bot/package.xml\n'}
+[2.518656] (diff_bot) CommandEnded: {'returncode': 0}
+[2.565423] (-) TimerEvent: {}
+[2.586495] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.599875] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.605986] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.606358] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ibraheem/course_ws/src/depthimage_to_laserscan/include>\n'}
+[2.606439] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.612133] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.612331] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.613887] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.615742] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.616935] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.622576] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.622767] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.623815] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.629676] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.639205] (diff_bot) JobEnded: {'identifier': 'diff_bot', 'rc': 0}
+[2.663988] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.666388] (-) TimerEvent: {}
+[2.667279] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Build files have been written to: /home/ibraheem/course_ws/src/build/depthimage_to_laserscan\n'}
+[2.695854] (depthimage_to_laserscan) CommandEnded: {'returncode': 0}
+[2.696382] (depthimage_to_laserscan) JobProgress: {'identifier': 'depthimage_to_laserscan', 'progress': 'build'}
+[2.697406] (depthimage_to_laserscan) Command: {'cmd': ['/home/ibraheem/.local/bin/cmake', '--build', '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan', '--', '-j6', '-l6'], 'cwd': '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ibraheem'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ibraheem'), ('OLDPWD', '/home/ibraheem/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ibraheem'), ('_', '/home/ibraheem/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ibraheem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ibraheem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ibraheem-VirtualBox:@/tmp/.ICE-unix/1070,unix/ibraheem-VirtualBox:/tmp/.ICE-unix/1070'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e15b3ea_997e_439b_a380_89184e1bc59a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3N5M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ibraheem/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.768287] (-) TimerEvent: {}
+[2.801486] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.801684] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/DepthImageToLaserScan.dir/src/DepthImageToLaserScan.cpp.o\x1b[0m\n'}
+[2.801764] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.868108] (kinect_ros2) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.9 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[2.868414] (-) TimerEvent: {}
+[2.979289] (-) TimerEvent: {}
+[3.016729] (kinect_ros2) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[3.051029] (kinect_ros2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.053978] (kinect_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/ibraheem/course_ws/src/build/kinect_ros2\n'}
+[3.078546] (kinect_ros2) CommandEnded: {'returncode': 0}
+[3.080281] (kinect_ros2) JobProgress: {'identifier': 'kinect_ros2', 'progress': 'build'}
+[3.080326] (-) TimerEvent: {}
+[3.080433] (kinect_ros2) Command: {'cmd': ['/home/ibraheem/.local/bin/cmake', '--build', '/home/ibraheem/course_ws/src/build/kinect_ros2', '--', '-j6', '-l6'], 'cwd': '/home/ibraheem/course_ws/src/build/kinect_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ibraheem'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ibraheem'), ('OLDPWD', '/home/ibraheem/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ibraheem'), ('_', '/home/ibraheem/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ibraheem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ibraheem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ibraheem-VirtualBox:@/tmp/.ICE-unix/1070,unix/ibraheem-VirtualBox:/tmp/.ICE-unix/1070'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e15b3ea_997e_439b_a380_89184e1bc59a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3N5M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ibraheem/course_ws/src/build/kinect_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ibraheem/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.182672] (-) TimerEvent: {}
+[3.188803] (kinect_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/kinect_ros2_component.dir/src/kinect_ros2_component.cpp.o\x1b[0m\n'}
+[3.287925] (-) TimerEvent: {}
+[3.393417] (-) TimerEvent: {}
+[3.495584] (-) TimerEvent: {}
+[3.596460] (-) TimerEvent: {}
+[3.696966] (-) TimerEvent: {}
+[3.797898] (-) TimerEvent: {}
+[3.894664] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.898108] (-) TimerEvent: {}
+[3.954069] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 33%] Built target gtest_main\n'}
+[3.998601] (-) TimerEvent: {}
+[4.100725] (-) TimerEvent: {}
+[4.203501] (-) TimerEvent: {}
+[4.219521] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libDepthImageToLaserScan.so\x1b[0m\n'}
+[4.304510] (-) TimerEvent: {}
+[4.326368] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 41%] Built target DepthImageToLaserScan\n'}
+[4.337965] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/DepthImageToLaserScanROS.dir/src/DepthImageToLaserScanROS.cpp.o\x1b[0m\n'}
+[4.405021] (-) TimerEvent: {}
+[4.511478] (-) TimerEvent: {}
+[4.626173] (-) TimerEvent: {}
+[4.728834] (-) TimerEvent: {}
+[4.844660] (-) TimerEvent: {}
+[4.945319] (-) TimerEvent: {}
+[5.046641] (-) TimerEvent: {}
+[5.148962] (-) TimerEvent: {}
+[5.249778] (-) TimerEvent: {}
+[5.350889] (-) TimerEvent: {}
+[5.452382] (-) TimerEvent: {}
+[5.560394] (-) TimerEvent: {}
+[5.665408] (-) TimerEvent: {}
+[5.769411] (-) TimerEvent: {}
+[5.875351] (-) TimerEvent: {}
+[5.981525] (-) TimerEvent: {}
+[6.109297] (-) TimerEvent: {}
+[6.210224] (-) TimerEvent: {}
+[6.312671] (-) TimerEvent: {}
+[6.413310] (-) TimerEvent: {}
+[6.458815] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ibraheem/course_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void kinect_ros2::KinectRosComponent::depth_cb(freenect_device*, void*, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.459207] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ibraheem/course_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:120:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.459316] (kinect_ros2) StderrLine: {'line': b'  120 | void KinectRosComponent::depth_cb(\x1b[01;35m\x1b[Kfreenect_device * dev\x1b[m\x1b[K, void * depth_ptr, uint32_t timestamp)\n'}
+[6.459391] (kinect_ros2) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.459459] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ibraheem/course_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:120:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimestamp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.459528] (kinect_ros2) StderrLine: {'line': b'  120 | ::depth_cb(freenect_device * dev, void * depth_ptr, \x1b[01;35m\x1b[Kuint32_t timestamp\x1b[m\x1b[K)\n'}
+[6.459596] (kinect_ros2) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.459659] (kinect_ros2) StderrLine: {'line': b'\n'}
+[6.459722] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ibraheem/course_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void kinect_ros2::KinectRosComponent::rgb_cb(freenect_device*, void*, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.459796] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ibraheem/course_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:135:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.459881] (kinect_ros2) StderrLine: {'line': b'  135 | void KinectRosComponent::rgb_cb(\x1b[01;35m\x1b[Kfreenect_device * dev\x1b[m\x1b[K, void * rgb_ptr, uint32_t timestamp)\n'}
+[6.459948] (kinect_ros2) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.460012] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ibraheem/course_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:135:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimestamp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.460078] (kinect_ros2) StderrLine: {'line': b'  135 | nent::rgb_cb(freenect_device * dev, void * rgb_ptr, \x1b[01;35m\x1b[Kuint32_t timestamp\x1b[m\x1b[K)\n'}
+[6.460141] (kinect_ros2) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.460206] (kinect_ros2) StderrLine: {'line': b'\n'}
+[6.514637] (-) TimerEvent: {}
+[6.522545] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[6.575920] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 58%] Built target gtest\n'}
+[6.587711] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/depthimage_to_laserscan-test.dir/test/DepthImageToLaserScanTest.cpp.o\x1b[0m\n'}
+[6.625125] (-) TimerEvent: {}
+[6.753326] (-) TimerEvent: {}
+[6.865444] (-) TimerEvent: {}
+[6.989024] (-) TimerEvent: {}
+[7.122019] (-) TimerEvent: {}
+[7.268963] (-) TimerEvent: {}
+[7.373252] (-) TimerEvent: {}
+[7.494978] (-) TimerEvent: {}
+[7.607010] (kinect_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libkinect_ros2_component.so\x1b[0m\n'}
+[7.607208] (-) TimerEvent: {}
+[7.721072] (-) TimerEvent: {}
+[7.788096] (kinect_ros2) StdoutLine: {'line': b'[ 50%] Built target kinect_ros2_component\n'}
+[7.799892] (kinect_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/kinect_ros2_node.dir/src/kinect_ros2_node.cpp.o\x1b[0m\n'}
+[7.834911] (-) TimerEvent: {}
+[7.947254] (-) TimerEvent: {}
+[8.051481] (-) TimerEvent: {}
+[8.162064] (-) TimerEvent: {}
+[8.268390] (-) TimerEvent: {}
+[8.384866] (-) TimerEvent: {}
+[8.504759] (-) TimerEvent: {}
+[8.649705] (-) TimerEvent: {}
+[8.758571] (-) TimerEvent: {}
+[8.809613] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable depthimage_to_laserscan-test\x1b[0m\n'}
+[8.859046] (-) TimerEvent: {}
+[8.961101] (-) TimerEvent: {}
+[9.001963] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 75%] Built target depthimage_to_laserscan-test\n'}
+[9.069493] (-) TimerEvent: {}
+[9.171658] (-) TimerEvent: {}
+[9.275148] (-) TimerEvent: {}
+[9.383340] (-) TimerEvent: {}
+[9.488469] (-) TimerEvent: {}
+[9.608733] (-) TimerEvent: {}
+[9.709439] (-) TimerEvent: {}
+[9.810737] (-) TimerEvent: {}
+[9.912117] (-) TimerEvent: {}
+[10.018645] (-) TimerEvent: {}
+[10.127217] (-) TimerEvent: {}
+[10.237262] (-) TimerEvent: {}
+[10.343149] (-) TimerEvent: {}
+[10.453811] (-) TimerEvent: {}
+[10.557009] (-) TimerEvent: {}
+[10.663369] (-) TimerEvent: {}
+[10.767464] (-) TimerEvent: {}
+[10.872694] (-) TimerEvent: {}
+[10.984003] (-) TimerEvent: {}
+[11.209264] (-) TimerEvent: {}
+[11.310997] (-) TimerEvent: {}
+[11.420191] (-) TimerEvent: {}
+[11.529514] (-) TimerEvent: {}
+[11.644885] (-) TimerEvent: {}
+[11.778439] (-) TimerEvent: {}
+[11.886839] (-) TimerEvent: {}
+[11.991339] (-) TimerEvent: {}
+[12.046765] (kinect_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable kinect_ros2_node\x1b[0m\n'}
+[12.091721] (-) TimerEvent: {}
+[12.193022] (-) TimerEvent: {}
+[12.293455] (-) TimerEvent: {}
+[12.393941] (-) TimerEvent: {}
+[12.489591] (kinect_ros2) StdoutLine: {'line': b'[100%] Built target kinect_ros2_node\n'}
+[12.494121] (-) TimerEvent: {}
+[12.506382] (kinect_ros2) CommandEnded: {'returncode': 0}
+[12.594244] (-) TimerEvent: {}
+[12.622966] (kinect_ros2) JobProgress: {'identifier': 'kinect_ros2', 'progress': 'install'}
+[12.624088] (kinect_ros2) Command: {'cmd': ['/home/ibraheem/.local/bin/cmake', '--install', '/home/ibraheem/course_ws/src/build/kinect_ros2'], 'cwd': '/home/ibraheem/course_ws/src/build/kinect_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ibraheem'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ibraheem'), ('OLDPWD', '/home/ibraheem/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ibraheem'), ('_', '/home/ibraheem/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ibraheem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ibraheem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ibraheem-VirtualBox:@/tmp/.ICE-unix/1070,unix/ibraheem-VirtualBox:/tmp/.ICE-unix/1070'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e15b3ea_997e_439b_a380_89184e1bc59a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3N5M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ibraheem/course_ws/src/build/kinect_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ibraheem/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.694473] (-) TimerEvent: {}
+[12.702349] (kinect_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.702858] (kinect_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.703253] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/lib/libkinect_ros2_component.so\n'}
+[12.707416] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/lib/kinect_ros2/kinect_ros2_node\n'}
+[12.711455] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/cfg/calibration_depth.yaml\n'}
+[12.714957] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/cfg/calibration_rgb.yaml\n'}
+[12.718636] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/launch/pointcloud.launch.py\n'}
+[12.722146] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/launch/showimage.launch.py\n'}
+[12.725989] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/rviz/pointcloud.rviz\n'}
+[12.729738] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/ament_index/resource_index/package_run_dependencies/kinect_ros2\n'}
+[12.733642] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/ament_index/resource_index/parent_prefix_path/kinect_ros2\n'}
+[12.738218] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/environment/ament_prefix_path.sh\n'}
+[12.741924] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/environment/ament_prefix_path.dsv\n'}
+[12.745402] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/environment/path.sh\n'}
+[12.749053] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/environment/path.dsv\n'}
+[12.752572] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/local_setup.bash\n'}
+[12.756095] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/local_setup.sh\n'}
+[12.759607] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/local_setup.zsh\n'}
+[12.763102] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/local_setup.dsv\n'}
+[12.766539] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/package.dsv\n'}
+[12.770058] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/ament_index/resource_index/packages/kinect_ros2\n'}
+[12.773655] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/ament_index/resource_index/rclcpp_components/kinect_ros2\n'}
+[12.777217] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/cmake/kinect_ros2Config.cmake\n'}
+[12.780591] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/cmake/kinect_ros2Config-version.cmake\n'}
+[12.783854] (kinect_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/kinect_ros2/share/kinect_ros2/package.xml\n'}
+[12.796941] (-) TimerEvent: {}
+[12.801510] (kinect_ros2) CommandEnded: {'returncode': 0}
+[12.897397] (-) TimerEvent: {}
+[12.929454] (kinect_ros2) JobEnded: {'identifier': 'kinect_ros2', 'rc': 0}
+[13.003215] (-) TimerEvent: {}
+[13.110167] (-) TimerEvent: {}
+[13.211423] (-) TimerEvent: {}
+[13.321361] (-) TimerEvent: {}
+[13.424351] (-) TimerEvent: {}
+[13.531904] (-) TimerEvent: {}
+[13.632370] (-) TimerEvent: {}
+[13.738133] (-) TimerEvent: {}
+[13.875119] (-) TimerEvent: {}
+[13.976400] (-) TimerEvent: {}
+[14.077176] (-) TimerEvent: {}
+[14.178423] (-) TimerEvent: {}
+[14.279341] (-) TimerEvent: {}
+[14.380126] (-) TimerEvent: {}
+[14.480461] (-) TimerEvent: {}
+[14.584363] (-) TimerEvent: {}
+[14.684824] (-) TimerEvent: {}
+[14.785724] (-) TimerEvent: {}
+[14.886664] (-) TimerEvent: {}
+[14.987096] (-) TimerEvent: {}
+[15.087682] (-) TimerEvent: {}
+[15.188312] (-) TimerEvent: {}
+[15.288819] (-) TimerEvent: {}
+[15.389732] (-) TimerEvent: {}
+[15.490629] (-) TimerEvent: {}
+[15.591516] (-) TimerEvent: {}
+[15.692366] (-) TimerEvent: {}
+[15.792665] (-) TimerEvent: {}
+[15.892995] (-) TimerEvent: {}
+[15.993404] (-) TimerEvent: {}
+[16.094931] (-) TimerEvent: {}
+[16.195817] (-) TimerEvent: {}
+[16.296143] (-) TimerEvent: {}
+[16.396550] (-) TimerEvent: {}
+[16.497686] (-) TimerEvent: {}
+[16.599181] (-) TimerEvent: {}
+[16.700539] (-) TimerEvent: {}
+[16.802245] (-) TimerEvent: {}
+[16.902821] (-) TimerEvent: {}
+[17.003592] (-) TimerEvent: {}
+[17.104655] (-) TimerEvent: {}
+[17.205224] (-) TimerEvent: {}
+[17.305915] (-) TimerEvent: {}
+[17.406440] (-) TimerEvent: {}
+[17.509126] (-) TimerEvent: {}
+[17.610054] (-) TimerEvent: {}
+[17.710972] (-) TimerEvent: {}
+[17.811541] (-) TimerEvent: {}
+[17.912407] (-) TimerEvent: {}
+[18.013244] (-) TimerEvent: {}
+[18.113979] (-) TimerEvent: {}
+[18.214518] (-) TimerEvent: {}
+[18.315200] (-) TimerEvent: {}
+[18.416064] (-) TimerEvent: {}
+[18.446070] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libDepthImageToLaserScanROS.so\x1b[0m\n'}
+[18.529259] (-) TimerEvent: {}
+[18.630461] (-) TimerEvent: {}
+[18.730770] (-) TimerEvent: {}
+[18.833684] (-) TimerEvent: {}
+[18.940655] (-) TimerEvent: {}
+[19.042307] (-) TimerEvent: {}
+[19.142186] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 83%] Built target DepthImageToLaserScanROS\n'}
+[19.142423] (-) TimerEvent: {}
+[19.153346] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/depthimage_to_laserscan_node.dir/src/depthimage_to_laserscan.cpp.o\x1b[0m\n'}
+[19.248099] (-) TimerEvent: {}
+[19.349093] (-) TimerEvent: {}
+[19.449935] (-) TimerEvent: {}
+[19.550875] (-) TimerEvent: {}
+[19.651137] (-) TimerEvent: {}
+[19.751756] (-) TimerEvent: {}
+[19.857039] (-) TimerEvent: {}
+[19.959184] (-) TimerEvent: {}
+[20.059442] (-) TimerEvent: {}
+[20.160289] (-) TimerEvent: {}
+[20.262078] (-) TimerEvent: {}
+[20.362764] (-) TimerEvent: {}
+[20.463457] (-) TimerEvent: {}
+[20.564514] (-) TimerEvent: {}
+[20.665226] (-) TimerEvent: {}
+[20.767044] (-) TimerEvent: {}
+[20.867788] (-) TimerEvent: {}
+[20.979432] (-) TimerEvent: {}
+[21.081751] (-) TimerEvent: {}
+[21.182034] (-) TimerEvent: {}
+[21.283433] (-) TimerEvent: {}
+[21.384290] (-) TimerEvent: {}
+[21.487100] (-) TimerEvent: {}
+[21.587728] (-) TimerEvent: {}
+[21.690620] (-) TimerEvent: {}
+[21.791481] (-) TimerEvent: {}
+[21.892268] (-) TimerEvent: {}
+[21.992942] (-) TimerEvent: {}
+[22.094167] (-) TimerEvent: {}
+[22.196824] (-) TimerEvent: {}
+[22.297465] (-) TimerEvent: {}
+[22.399481] (-) TimerEvent: {}
+[22.512476] (-) TimerEvent: {}
+[22.613388] (-) TimerEvent: {}
+[22.713726] (-) TimerEvent: {}
+[22.819692] (-) TimerEvent: {}
+[22.823958] (depthimage_to_laserscan) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable depthimage_to_laserscan_node\x1b[0m\n'}
+[22.923910] (-) TimerEvent: {}
+[23.032371] (-) TimerEvent: {}
+[23.094266] (depthimage_to_laserscan) StdoutLine: {'line': b'[100%] Built target depthimage_to_laserscan_node\n'}
+[23.113567] (depthimage_to_laserscan) CommandEnded: {'returncode': 0}
+[23.132891] (-) TimerEvent: {}
+[23.233226] (-) TimerEvent: {}
+[23.236133] (depthimage_to_laserscan) JobProgress: {'identifier': 'depthimage_to_laserscan', 'progress': 'install'}
+[23.237150] (depthimage_to_laserscan) Command: {'cmd': ['/home/ibraheem/.local/bin/cmake', '--install', '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan'], 'cwd': '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ibraheem'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ibraheem'), ('OLDPWD', '/home/ibraheem/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ibraheem'), ('_', '/home/ibraheem/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ibraheem'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ibraheem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ibraheem-VirtualBox:@/tmp/.ICE-unix/1070,unix/ibraheem-VirtualBox:/tmp/.ICE-unix/1070'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e15b3ea_997e_439b_a380_89184e1bc59a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3N5M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ibraheem/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.313700] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.314206] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.314829] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan.hpp\n'}
+[23.318509] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS.hpp\n'}
+[23.322008] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/depth_traits.hpp\n'}
+[23.325837] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan-launch.py\n'}
+[23.329213] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan_composed-launch.py\n'}
+[23.333096] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan//cfg/param.yaml\n'}
+[23.333248] (-) TimerEvent: {}
+[23.336938] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/lib/depthimage_to_laserscan/depthimage_to_laserscan_node\n'}
+[23.340427] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan_export.h\n'}
+[23.343920] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS_export.h\n'}
+[23.347696] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.sh\n'}
+[23.351358] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.dsv\n'}
+[23.355412] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/ament_index/resource_index/package_run_dependencies/depthimage_to_laserscan\n'}
+[23.359103] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/ament_index/resource_index/parent_prefix_path/depthimage_to_laserscan\n'}
+[23.363013] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.sh\n'}
+[23.366661] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.dsv\n'}
+[23.370722] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.sh\n'}
+[23.375012] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.dsv\n'}
+[23.378619] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.bash\n'}
+[23.382326] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.sh\n'}
+[23.386179] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.zsh\n'}
+[23.390142] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.dsv\n'}
+[23.393826] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv\n'}
+[23.397732] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/ament_index/resource_index/packages/depthimage_to_laserscan\n'}
+[23.401499] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/ament_index/resource_index/rclcpp_components/depthimage_to_laserscan\n'}
+[23.405165] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.408776] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.413477] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.417018] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.421044] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig.cmake\n'}
+[23.424259] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig-version.cmake\n'}
+[23.427921] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.xml\n'}
+[23.431485] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so\n'}
+[23.432059] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so" to ""\n'}
+[23.432187] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so\n'}
+[23.433820] (-) TimerEvent: {}
+[23.447130] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so" to ""\n'}
+[23.447364] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport.cmake\n'}
+[23.447515] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport-noconfig.cmake\n'}
+[23.460389] (depthimage_to_laserscan) CommandEnded: {'returncode': 0}
+[23.533997] (-) TimerEvent: {}
+[23.611853] (depthimage_to_laserscan) JobEnded: {'identifier': 'depthimage_to_laserscan', 'rc': 0}
+[23.613260] (-) EventReactorShutdown: {}

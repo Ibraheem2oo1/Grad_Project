@@ -1,0 +1,2 @@
+Invoking command in '/home/ibraheem/course_ws/src/build/kinect_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/ibraheem/.local/bin/cmake --build /home/ibraheem/course_ws/src/build/kinect_ros2 -- -j6 -l6
+Invoked command in '/home/ibraheem/course_ws/src/build/kinect_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/ibraheem/.local/bin/cmake --build /home/ibraheem/course_ws/src/build/kinect_ros2 -- -j6 -l6

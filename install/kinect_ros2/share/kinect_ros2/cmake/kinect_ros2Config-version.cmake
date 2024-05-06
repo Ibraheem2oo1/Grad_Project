@@ -1,0 +1,1 @@
+/home/ibraheem/course_ws/src/build/kinect_ros2/ament_cmake_core/kinect_ros2Config-version.cmake

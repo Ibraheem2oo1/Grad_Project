@@ -1,0 +1,174 @@
+[0.134s] DEBUG:colcon:Command line arguments: ['/home/ibraheem/.local/bin/colcon', 'build', '--symlink-install']
+[0.134s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71bd8e3fe320>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71bd8e3fde10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71bd8e3fde10>>)
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.328s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ibraheem/course_ws/src'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(depthimage_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(depthimage_to_laserscan) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(depthimage_to_laserscan) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(depthimage_to_laserscan) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(depthimage_to_laserscan) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(depthimage_to_laserscan) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(depthimage_to_laserscan) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(depthimage_to_laserscan) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(depthimage_to_laserscan) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'depthimage_to_laserscan' with type 'ros.catkin' and name 'depthimage_to_laserscan'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'diff_bot' with type 'ros.ament_cmake' and name 'diff_bot'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(kinect_ros2) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'kinect_ros2' with type 'ros.ament_cmake' and name 'kinect_ros2'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.368s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ibraheem/course_ws/install/depthimage_to_laserscan' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.368s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ibraheem/course_ws/install/depthimage_to_laserscan' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.369s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ibraheem/course_ws/install
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/ros/humble
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.436s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'depthimage_to_laserscan' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding depthimage_to_laserscan
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'depthimage_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan', 'merge_install': False, 'path': '/home/ibraheem/course_ws/src/depthimage_to_laserscan', 'symlink_install': True, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'diff_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibraheem/course_ws/src/build/diff_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibraheem/course_ws/src/install/diff_bot', 'merge_install': False, 'path': '/home/ibraheem/course_ws/src/diff_bot', 'symlink_install': True, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'kinect_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ibraheem/course_ws/src/build/kinect_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ibraheem/course_ws/src/install/kinect_ros2', 'merge_install': False, 'path': '/home/ibraheem/course_ws/src/kinect_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.439s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.440s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.440s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ibraheem/course_ws/src/depthimage_to_laserscan' with build type 'catkin'
+[0.440s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ibraheem/course_ws/src/depthimage_to_laserscan'
+[0.443s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ibraheem/course_ws/src/diff_bot' with build type 'ament_cmake'
+[0.456s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ibraheem/course_ws/src/diff_bot'
+[0.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.462s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ibraheem/course_ws/src/kinect_ros2' with build type 'ament_cmake'
+[0.462s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ibraheem/course_ws/src/kinect_ros2'
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan': /home/ibraheem/.local/bin/cmake /home/ibraheem/course_ws/src/depthimage_to_laserscan -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ibraheem/course_ws/src/install/depthimage_to_laserscan
+[0.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibraheem/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/ibraheem/.local/bin/cmake --build /home/ibraheem/course_ws/src/build/diff_bot -- -j6 -l6
+[0.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ibraheem/course_ws/src/build/kinect_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/ibraheem/.local/bin/cmake --build /home/ibraheem/course_ws/src/build/kinect_ros2 -- -j6 -l6
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan' returned '1': /home/ibraheem/.local/bin/cmake /home/ibraheem/course_ws/src/depthimage_to_laserscan -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ibraheem/course_ws/src/install/depthimage_to_laserscan
+[0.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibraheem/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/ibraheem/.local/bin/cmake --build /home/ibraheem/course_ws/src/build/diff_bot -- -j6 -l6
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ibraheem/course_ws/src/build/kinect_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/ibraheem/.local/bin/cmake --build /home/ibraheem/course_ws/src/build/kinect_ros2 -- -j6 -l6
+[0.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthimage_to_laserscan)
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan' for CMake module files
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan' for CMake config files
+[0.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'cmake_prefix_path')
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.ps1'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.dsv'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.sh'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/lib'
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'ld_library_path_lib')
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.dsv'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.sh'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/bin'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/lib/pkgconfig/depthimage_to_laserscan.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/lib/python3.10/site-packages'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/bin'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.bash'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.zsh'
+[0.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ibraheem/course_ws/src/install/depthimage_to_laserscan/share/colcon-core/packages/depthimage_to_laserscan)
+[0.836s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.836s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.836s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.836s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.842s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.842s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.842s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.855s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.855s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibraheem/course_ws/src/install/local_setup.ps1'
+[0.856s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ibraheem/course_ws/src/install/_local_setup_util_ps1.py'
+[0.857s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibraheem/course_ws/src/install/setup.ps1'
+[0.858s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibraheem/course_ws/src/install/local_setup.sh'
+[0.859s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ibraheem/course_ws/src/install/_local_setup_util_sh.py'
+[0.859s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibraheem/course_ws/src/install/setup.sh'
+[0.861s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibraheem/course_ws/src/install/local_setup.bash'
+[0.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibraheem/course_ws/src/install/setup.bash'
+[0.862s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ibraheem/course_ws/src/install/local_setup.zsh'
+[0.863s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ibraheem/course_ws/src/install/setup.zsh'

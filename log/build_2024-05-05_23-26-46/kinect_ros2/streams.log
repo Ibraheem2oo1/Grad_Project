@@ -1,0 +1,4 @@
+[0.048s] Invoking command in '/home/ibraheem/course_ws/src/build/kinect_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/ibraheem/.local/bin/cmake --build /home/ibraheem/course_ws/src/build/kinect_ros2 -- -j6 -l6
+[0.192s] [ 50%] Built target kinect_ros2_component
+[0.225s] [100%] Built target kinect_ros2_node
+[0.245s] Invoked command in '/home/ibraheem/course_ws/src/build/kinect_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/ibraheem/.local/bin/cmake --build /home/ibraheem/course_ws/src/build/kinect_ros2 -- -j6 -l6

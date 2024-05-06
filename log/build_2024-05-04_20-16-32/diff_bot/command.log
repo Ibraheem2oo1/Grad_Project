@@ -1,0 +1,6 @@
+Invoking command in '/home/ibraheem/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ibraheem/.local/bin/cmake /home/ibraheem/course_ws/src/diff_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibraheem/course_ws/src/install/diff_bot
+Invoked command in '/home/ibraheem/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ibraheem/.local/bin/cmake /home/ibraheem/course_ws/src/diff_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ibraheem/course_ws/src/install/diff_bot
+Invoking command in '/home/ibraheem/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ibraheem/.local/bin/cmake --build /home/ibraheem/course_ws/src/build/diff_bot -- -j6 -l6
+Invoked command in '/home/ibraheem/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ibraheem/.local/bin/cmake --build /home/ibraheem/course_ws/src/build/diff_bot -- -j6 -l6
+Invoking command in '/home/ibraheem/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ibraheem/.local/bin/cmake --install /home/ibraheem/course_ws/src/build/diff_bot
+Invoked command in '/home/ibraheem/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ibraheem/.local/bin/cmake --install /home/ibraheem/course_ws/src/build/diff_bot

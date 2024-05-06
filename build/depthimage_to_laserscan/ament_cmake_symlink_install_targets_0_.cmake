@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ibraheem/course_ws/src/build/depthimage_to_laserscan/depthimage_to_laserscan_node" "TARGETS" "depthimage_to_laserscan_node" "DESTINATION" "lib/depthimage_to_laserscan")

@@ -1,0 +1,28 @@
+[0.053s] Invoking command in '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan': /home/ibraheem/.local/bin/cmake /home/ibraheem/course_ws/src/depthimage_to_laserscan -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ibraheem/course_ws/src/install/depthimage_to_laserscan
+[0.129s] [0mCMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+[0.129s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.129s]   CMake.
+[0.129s] 
+[0.129s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.129s]   CMake that the project does not need compatibility with older versions.
+[0.130s] 
+[0.130s] [0m
+[0.163s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[0.164s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.164s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.164s]   CMake did not find one.
+[0.164s] 
+[0.164s]   Could not find a package configuration file provided by "catkin" with any
+[0.164s]   of the following names:
+[0.164s] 
+[0.164s]     catkinConfig.cmake
+[0.164s]     catkin-config.cmake
+[0.164s] 
+[0.164s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.164s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.164s]   provides a separate development package or SDK, be sure it has been
+[0.164s]   installed.
+[0.164s] 
+[0.165s] [0m
+[0.165s] -- Configuring incomplete, errors occurred!
+[0.179s] Invoked command in '/home/ibraheem/course_ws/src/build/depthimage_to_laserscan' returned '1': /home/ibraheem/.local/bin/cmake /home/ibraheem/course_ws/src/depthimage_to_laserscan -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ibraheem/course_ws/src/install/depthimage_to_laserscan
